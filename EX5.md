@@ -14,6 +14,23 @@ To create a Trigger using PL/SQL.
 8. Display the employee table, salary_log table.
 
 ### Program:
+```
+CREATE TABLE employed(
+  empid NUMBER,
+  empname VARCHAR2(10),
+  dept VARCHAR2(10),
+  salary NUMBER
+);
+
+CREATE TABLE sal_log (
+  log_id NUMBER GENERATED ALWAYS AS IDENTITY,
+  empid NUMBER,
+  empname VARCHAR2(10),
+  old_salary NUMBER,
+  new_salary NUMBER,
+  update_date DATE
+);
+```
 ### Create employee table
 ![image](https://github.com/Aishwarya-sankar/Ex-No-5-Creating-Triggers-using-PL-SQL/assets/121418444/9ec00a25-532a-43f1-a925-5cd9f478ae46)
 
