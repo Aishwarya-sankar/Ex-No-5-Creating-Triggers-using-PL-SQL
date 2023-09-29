@@ -21,6 +21,7 @@ To create a Trigger using PL/SQL.
 ![image](https://github.com/Aishwarya-sankar/Ex-No-5-Creating-Triggers-using-PL-SQL/assets/121418444/4c0bf053-8023-462d-97e9-2dc32cdb4b8d)
 
 ### PLSQL Trigger code
+```
 ->Create the trigger
 Create the trigger
 CREATE OR REPLACE TRIGGER log_sal_update
@@ -42,7 +43,7 @@ SELECT * FROM employed;
 
 ->Display the salary_log table
 SELECT * FROM sal_log;
-
+```
 ### Output:
 ![image](https://github.com/Aishwarya-sankar/Ex-No-5-Creating-Triggers-using-PL-SQL/assets/121418444/3849be24-06df-41bc-bd37-fbe1d74b6440)
 
